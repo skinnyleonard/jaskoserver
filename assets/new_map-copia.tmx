@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="left-down" width="100" height="54" tilewidth="128" tileheight="128" infinite="0" nextlayerid="4" nextobjectid="176">
+ <objectgroup id="1" name="wall">
+  <object id="175" x="6064" y="1288">
+   <polygon points="0,0 472,24 720,224 544,424 -112,496 -64,304 -168,288 -272,216 -296,96 -224,80 -128,72"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="2" name="player">
+  <object id="166" x="6256" y="1904" width="128" height="256"/>
+ </objectgroup>
+</map>
