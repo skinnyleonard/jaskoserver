@@ -7,7 +7,7 @@ public class WsServerRunner extends Thread {
     public void run() {
         try {
             int port = Integer.parseInt(System.getenv().getOrDefault("PORT", "8080"));
-            Server server = new Server("localhost", port, "/ws", null, WsServer.class);
+            Server server = new Server("0.0.0.0", port, "/ws", null, WsServer.class);
             server.start();
             System.out.println("prendio");
         } catch (Exception e) {
