@@ -28,7 +28,7 @@ public class Loader {
     public Loader(World world) throws ParserConfigurationException, IOException, SAXException {
         this.world = world;
 
-        File xmlFile = new File("C:\\Users\\Jesu\\Downloads\\fusionZ\\jaskoracing-medioviejo-paraactgualizar\\jaskoracing\\assets\\mapa_demo_final.tmx");
+        File xmlFile = new File("assets/mapa_demo_final.tmx");
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
         Document doc = dBuilder.parse(xmlFile);
